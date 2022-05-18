@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Football Collection</string>
+    <string name="title_game_play">Football Collection</string>
+    <string name="title_main_menu">Main Menu</string>
+    <string name="start">Start</string>
+    <string name="collection">Collection</string>
+    <string name="next">Next</string>
+    <string name="menu">Menu</string>
+    <string name="question_mark">\u003F</string>
 </resources>

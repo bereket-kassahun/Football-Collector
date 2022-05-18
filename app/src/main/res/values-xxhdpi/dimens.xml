@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_title_font_size">60sp</dimen>
+    <dimen name="start_text_font_size">25sp</dimen>
+    <dimen name="start_button_padding">30dp</dimen>
+</resources>
