@@ -9,6 +9,7 @@
 
 
     <ImageButton
+        android:id="@+id/back_button"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginLeft="30dp"
@@ -26,7 +27,7 @@
         android:textColor="@color/white"
         android:textAllCaps="false"
         android:fontFamily="@font/poppins_medium"
-        android:textSize="40sp"
+        android:textSize="33sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,15 +40,16 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.15" />
 
-    <GridLayout
-        android:id="@+id/grid_layout"
-        android:padding="15dp"
-        android:columnCount="3"
+    <GridView
+        android:id="@+id/gridView"
+        android:numColumns="3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="15dp"
+        android:layout_margin="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        android:verticalSpacing="35dp"
+        android:horizontalSpacing="35dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

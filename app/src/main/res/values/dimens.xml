@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="main_title_font_size">50sp</dimen>
+    <dimen name="main_title_font_size">45sp</dimen>
     <dimen name="start_text_font_size">20sp</dimen>
     <dimen name="start_button_margin_left_right">30dp</dimen>
     <dimen name="start_button_margin_top_bottom">10dp</dimen>

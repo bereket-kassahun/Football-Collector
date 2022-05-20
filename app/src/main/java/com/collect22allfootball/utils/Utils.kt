@@ -55,8 +55,8 @@ fun splitImage(imageView: ImageView?, context: Context): Result {
     val targetLocations = ArrayList<Target>()
     val overlayPath = Path()
 
-    val rows = 7
-    val cols = 5
+    val rows = 5
+    val cols = 3
 //    val imageView: ImageView = findViewById(R.id.imageView)
 
     // Get the scaled bitmap of the source image
@@ -111,6 +111,7 @@ fun splitImage(imageView: ImageView?, context: Context): Result {
             piece.pieceWidth = pieceWidth
             piece.pieceHeight = pieceHeight
 
+            piece._id = id
             //setting target locations
             targetLocations.add(Target(piece.xCoord, piece.yCoord, id = id))
             id++

@@ -8,13 +8,13 @@
     android:background="@drawable/game_play_background">
 
     <ImageView
+        android:id="@+id/img"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="35dp"
-        android:src="@drawable/ronaldo"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toBottomOf="@id/guideline" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/menu"
         android:layout_width="0dp"
         android:layout_height="65dp"
         android:layout_marginLeft="35dp"
@@ -55,7 +55,7 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/next"
         android:layout_width="0dp"
         android:layout_height="65dp"
         android:backgroundTint="@color/buttonPrimary"
@@ -65,10 +65,10 @@
         android:textColor="@color/white"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="35dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintBottom_toBottomOf="@+id/menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toTopOf="@+id/button" />
+        app:layout_constraintTop_toTopOf="@+id/menu" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"

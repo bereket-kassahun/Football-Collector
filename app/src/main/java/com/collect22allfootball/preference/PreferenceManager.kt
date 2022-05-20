@@ -23,4 +23,6 @@ class PreferenceManager(context: Context) {
         return preferences.getInt(CURRENT_LEVEL, 1)
     }
 
+    fun getImagesCount() = 12
+
 }

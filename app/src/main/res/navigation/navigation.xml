@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@+id/nav_end_game">
+    app:startDestination="@+id/nav_main_menu">
 
     <fragment
         android:id="@+id/nav_game_play"
         android:name="com.collect22allfootball.ui.gameplay.GamePlayFragment"
-        android:label="@string/title_game_play"/>
+        android:label="@string/title_game_play"
+        tools:layout="@layout/game_play_fragment"/>
 
     <fragment
         android:id="@+id/nav_main_menu"
         android:name="com.collect22allfootball.ui.mainmenu.MainMenuFragment"
-        android:label="@string/title_game_play"/>
+        android:label="@string/title_game_play"
+        tools:layout=""/>
 
     <fragment
         android:id="@+id/nav_end_game"
         android:name="com.collect22allfootball.ui.endgame.EndGameFragment"
+        android:label="@string/title_game_play"
+        />
+
+
+    <fragment
+        android:id="@+id/nav_collections"
+        android:name="com.collect22allfootball.ui.collection.CollectionsFragment"
+        android:label="@string/title_game_play"/>
+
+
+    <fragment
+        android:id="@+id/nav_image_detail"
+        android:name="com.collect22allfootball.ui.imageDetail.ImageDetailFragment"
         android:label="@string/title_game_play"/>
 
 </navigation>
