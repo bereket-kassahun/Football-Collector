@@ -153,7 +153,6 @@ class GamePlayFragment : Fragment() {
                     }
                 }
             }
-
         }
     }
     fun drawOnOverlay(path: Path) {

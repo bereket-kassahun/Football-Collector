@@ -46,7 +46,7 @@ class CollectionsFragment : Fragment() {
         gridView.adapter = GridViewAdapter(requireContext(), preferences.getCurrentLevel())
 
         gridView.onItemClickListener = OnItemClickListener { _, _, position, id ->
-            if(preferences.getCurrentLevel()+1 > id){
+            if(id < preferences.getCurrentLevel()-1){
                 val navigator = (requireActivity() as MainActivity).navController
                 val bundle = Bundle()
                 bundle.putInt("img_name", (id+1).toInt())
